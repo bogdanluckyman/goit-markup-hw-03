@@ -79,6 +79,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  padding: 24px 0;
 }
 
 .header-list-item:is(:hover, :focus) {
@@ -170,7 +171,7 @@ img {
 }
 
 .skills-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .item-title {
@@ -194,6 +195,7 @@ img {
 
 /*------------- Main 3 section------------- */
 .images {
+  padding-bottom: 120px;
 }
 
 .images-title {
@@ -210,9 +212,12 @@ img {
 .images-list {
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
+  gap: 24px;
 }
 
 .images-item {
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 /*------------- Main 4 section------------- */
