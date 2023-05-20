@@ -335,6 +335,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-left: 0;
 }
 
 .project-second-item {
