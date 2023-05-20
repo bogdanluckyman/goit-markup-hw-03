@@ -273,10 +273,16 @@ img {
 /*------------- Footer------------- */
 .footer {
   background-color: var(--title-color);
+  padding: 100px 0;
 }
 
 .logo-footer-word {
   color: var(--footer-text);
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -284,6 +290,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text);
+  max-width: 264px;
 }
 
 /*------------- Portfolio------------- */
