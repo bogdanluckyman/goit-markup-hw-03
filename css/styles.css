@@ -297,9 +297,14 @@ img {
 
 .project {
   background-color: var(--background-color);
+  padding: 96px 0 120px;
 }
 
 .project-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .list-btn {
@@ -314,16 +319,27 @@ img {
   cursor: pointer;
   color: var(--logo-color);
   background-color: var(--footer-text);
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .list-btn:is(:focus, :hover) {
   color: var(--background-color);
   background-color: var(--hover-color);
+  border: 1px solid transparent;
 }
 
 .project-second-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
+.project-second-item {
+  width: calc((100% - 48px) / 3);
+}
 .second-list-title {
   font-weight: 500;
   font-size: 20px;
