@@ -19,6 +19,14 @@ img {
   display: block;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
